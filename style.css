@@ -1,0 +1,452 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+nav {
+    background-color: rgb(240, 245, 243);
+    height: 64px;
+}
+
+.nav-kiri {
+    padding-left: 20px;
+}
+
+.container-fluid {
+    padding-inline: 75px;
+}
+
+.navbar-brand {
+    font-family: roboto;
+    font-weight: 600;
+    padding-right: 8px;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 400;
+}
+
+.nav-kanan button {
+    background-color: rgb(242, 0, 145);
+    border-radius: 3px;
+    border-color: pink;
+    padding: 0px 12px;
+}
+
+section {
+    padding: 60px 75px 80px;
+}
+
+.home {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.in-home {
+    padding-top: 100px;
+}
+
+.home-text {
+    padding: 0;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    width: 55%;
+}
+
+.home-img {
+    background-image: url(img\ 1.png);
+    width: 45%;
+    background-size: cover;
+    background-position-y: 20px;
+    background-position-x: 30px;
+}
+
+.in-home h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.in-home ul {
+    font-size: 16px;
+    padding-block: 20px;
+}
+
+.in-home button {
+    border-radius: 3px;
+    background-color: rgb(242, 0, 145);
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: rgb(242, 0, 145);
+}
+
+.judul-home {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.kiri-judul {
+    width: 50%;
+}
+
+.kanan-judul {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-block: 0 65px;
+}
+
+.kanan-judul button {
+    padding-inline: 35px;
+    font-size: 14px;
+    border-radius: 0;
+    font-weight: 600;
+    border-color: rgb(0, 127, 237);
+    color: rgb(0, 127, 237);
+
+}
+
+.up-title {
+    display: flex;
+    align-items: center;
+
+}
+
+.bottom-tittle h3 {
+    font-size: 100%;
+    font-weight: 650;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    color: rgb(0, 127, 237);
+}
+
+.judul-home hr {
+    width: 70px;
+    border-width: 4px;
+    border-color: rgb(0, 127, 237);
+    opacity: 100%;
+}
+
+.judul-home h2 {
+    font-size: 250%;
+    padding-left: 30px;
+    font-weight: 650;
+}
+
+.card {
+    border-radius: 0px;
+}
+
+.col .card-service hr {
+    margin: 0;
+    padding-bottom: 0px;
+    border-width: 6px;
+
+}
+
+.card-service a path {
+    border-style: solid;
+    border-width: 10px;
+}
+
+.card-body-service {
+    padding: 50px 40px 40px 40px;
+}
+
+.card-service h5 {
+    padding-top: 30px;
+    font-size: 24px;
+}
+
+.card-body-service p {
+    padding-top: 24px;
+    font-size: 16px;
+}
+
+.project-done {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-done .row {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.project-done .row img {
+    width: 100%;
+    padding-block: 20px;
+}
+
+.main-about {
+    display: flex;
+    gap: 20px;
+}
+
+.gambar-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+    color: white;
+}
+
+.gambar-cover h2 {
+    font-size: 24px;
+    margin: 24px 0 0;
+    font-weight: 700;
+}
+
+.gambar-cover p {
+    font-size: 16px;
+    margin: 24px 0 0;
+}
+
+.gambar-kiri {
+    width: 45%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.9)), url('/asset/_Modern\ Man\ With\ Glasses\ And\ Beard\ Working\ At\ Night\ In\ His\ Office\ Alone_\ by\ Stocksy\ Contributor\ _Faces\ Film_.jpg');
+    height: 100vh;
+    background-position-y: 100%;
+}
+
+.gambar-kanan {
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gambar-space {
+    width: 100%;
+}
+
+.gambar-atas {
+    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(asset/man-g639c18ce2_1920.jpg);
+    background-position-y: 15%;
+}
+
+.gambar-bawah {
+    background-position-y: 40%;
+    height: 50%;
+    background-image: repeating-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('asset/download.jpg');
+}
+
+.visi-misi {
+    padding-top: 80px;
+}
+
+.col-visi {
+    padding-right: 50px;
+}
+
+.col-visi p {
+    padding-top: 24px;
+}
+
+.col-news {
+    padding: 17.5px;
+}
+
+.news-title {
+    text-align: center;
+}
+
+.news-title h2 {
+    margin: 0;
+    font-size: 250%;
+    font-weight: 650;
+}
+
+.news-title h3 {
+    font-size: 100%;
+    font-weight: 650;
+    margin: 24px 0 60px;
+
+    color: rgb(0, 127, 237);
+}
+
+.card-body-news h5 {
+    margin: 8px 0 16px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.card-body-news p {
+    font-size: 15px;
+}
+
+.card-body-news .card-link {
+    margin-top: 24px;
+}
+
+.page-social-media {
+    background-position-y: -230px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(asset/laptop-gd07f2b6cd_1920.jpg);
+    background-repeat: 0;
+    background-size: cover;
+}
+
+.social-media {
+    margin-block: 65px 45px;
+}
+
+.social-media ul {
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-media ul li {
+    list-style-type: none;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid rgb(0, 127, 237);
+    border-radius: 30px;
+}
+
+.social-media ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.social-media ul li a svg {
+    width: 55%;
+    height: 55%;
+}
+
+.social-media .judul h2 {
+    font-size: 270%;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 750;
+    color: white;
+}
+
+.social-media .social-button {
+    text-align: center;
+}
+
+.social-media .social-button .social-btn {
+    padding: 15px 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    border-width: 2px;
+}
+
+footer {
+    background-color: black;
+    padding: 60px 75px 18px;
+}
+
+.footer-top {
+    margin: 0 0 80px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-top h2 {
+    padding: 24px 0 0 0;
+    font-size: 20px;
+}
+
+
+.footer-top .row {
+    padding-left: 50px;
+}
+
+footer hr {
+    color: rgb(95, 95, 95);
+}
+
+.footer-title h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-block: 0 30px;
+}
+
+.footer-top ul {
+    margin: 24px 0 0 8px;
+}
+
+.footer-top li {
+    padding-block: 10px;
+}
+
+.footer-title p {
+    font-size: 14px;
+    color: rgb(208, 208, 208);
+}
+
+.footer-title hr {
+    margin-block: 24px 0;
+    width: 50%;
+    color: rgb(0, 127, 237);
+    opacity: 100%;
+    border-width: 2px;
+}
+
+.footer-bottom {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-bottom .sosmed {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom .sosmed svg {
+    width: 20px;
+}
+
+@media (max-width:576px) {
+
+    .container-fluid {
+        padding-inline: 25px;
+    }
+
+    section {
+        padding: 60px 25px 80px;
+    }
+
+    main section .main-about .gambar-cover {
+        width: 100%;
+    }
+
+    main section .main-about .gambar-cover {
+        width: 100%;
+        height: 300px;
+    }
+
+    .gambar-kanan {
+        width: 100%;
+    }
+
+    .project-done
+}
