@@ -24,7 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-![Demo](/asset/home-page)
+![Demo](/home-page.png)
 
 A web made with Bootstrap.
 This is a college assignment project for the course `Dasar Pemrograman Web` University of Riau.
