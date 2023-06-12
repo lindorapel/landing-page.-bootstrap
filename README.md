@@ -4,7 +4,7 @@
 
 <br />
 <p align="center">
-  <h1 style="padding-bottom:0" align="center">Website Informatika Unri</h1>
+  <h1 style="padding-bottom:0" align="center">Landing Page Bootstrap</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
