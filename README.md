@@ -24,7 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-![Demo](https://github.com/lindorapel/web-informatika-unri/assets/71240067/80433ff6-7528-41af-8366-90219391f56b)
+![Demo](/assets/Screenshot 2023-06-12 163109.png)
 
 A web made with Bootstrap.
 This is a college assignment project for the course `Dasar Pemrograman Web` University of Riau.
